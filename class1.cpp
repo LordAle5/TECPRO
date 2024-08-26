@@ -31,5 +31,10 @@ int main(int argc, char** argv) {
     
     //cambiar base. solo se puede en hex y oct 
     cout<<hex<<setw(10)<<num1<<setw(10)<<num2<<endl;
+    
+    //cambiar letras a mayusculas
+    cout<<uppercase<<setw(10)<<num1<<setw(10)<<num2<<endl;
+    //devolver a base
+    cout<<dec;
     return 0;
 }
